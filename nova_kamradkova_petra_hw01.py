@@ -14,7 +14,7 @@ for sign in final_bookSample:
 
 sorted_alfabeth = dict(sorted(char_dictionary.items()))
 
-with open('hw01_output.json.', mode="w", encoding="utf-8") as new_file:
+with open('hw01_output.json', mode="w", encoding="utf-8") as new_file:
     json.dump(sorted_alfabeth, new_file, ensure_ascii=False, indent=4)
 
 
